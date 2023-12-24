@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+}
+
+.page-1 {
+    background-color: #0E1014;
+    width: auto;
+    height: 14406px;
+}
+
+.Polyhedron {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 548px;
+    height: 551px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    margin-left: 445px;
+}
+
+.hader {
+    display: flex;
+    padding: 46px;
+    margin-left: 150px;
+    margin-right: 148px;
+    width: 1140px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: flex;
+    padding-top: 11px;
+    margin-right: 52px;
+    flex-direction: column;
+}
+
+.logo_welbex {
+    width: 96px;
+    height: 15px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 56px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-item {
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+    padding-top: 14px;
+}
+
+.icon-item1 {
+    width: 20px;
+    height: 20px;
+    padding-top: 14px;
+}
+
+.phone {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 110px;
+    padding-top: 15px;
+    margin-right: 47px;
+}
+
+.text {
+    color: #E4E5EA;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.menu-item {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+.content {
+    display: flex;
+    margin-left: 194px;
+    width: 362px;
+}
+
+.advantages {
+    padding-top: 15px;
+}
+
+.advantages_title {
+    display: flex;
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.text-1 {
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #e4e5ea;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+  .text-2 {
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #e4e5ea;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+  .text-3 {
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.784px;
+    text-align: right;
+    letter-spacing: 0.9px;
+    background: linear-gradient(90deg, #fcb045, #fd1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-4 {
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #e4e5ea;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+  .text-5 {
+    position: relative;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: #e4e5ea;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.784px;
+    text-align: right;
+  }
+
+.add {
+    margin-right: 483px;
+}
+
+.title_add {
+    color: var(--light-text, #E4E5EA);
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.grad_title {
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(to right, #FCB045, #FF3F78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+    margin: 0;
+}
+
+.podtext {
+    color: var(--light-text, #E4E5EA);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    margin: 0;
+}
+
+button {
+    background: #4077F3;
+    width: 262px;
+    height: 61px;
+    flex-shrink: 0;
+}
+
+.advantage_title {
+    color: var(--light-text, #E4E5EA);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.explanation {
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
